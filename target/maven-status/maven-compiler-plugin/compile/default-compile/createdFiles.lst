@@ -1,0 +1,5 @@
+com/elsevier/utils/RandomDataGeneration.class
+com/elsevier/utils/JsonFileReader.class
+com/elsevier/dataProviders/ConfigFileReader.class
+com/elsevier/utils/RequestBuilder.class
+com/elsevier/utils/URLBuilder.class

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.elsevier.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.347 s <<< FAILURE! - in com.elsevier.runner.TestRunner
+Verify that bitlinks are being created using post bitlink API with status code 200(Create Bitlinks)  Time elapsed: 1.445 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <406>.
+
+
