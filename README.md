@@ -2,7 +2,7 @@
 API Framework designed using rest-assured and cucumber in JAVA
 
 
-##### Framework Development Environment:
+### Framework Development Environment:
 Framework is developed considering following system requirements
 - OS - Windos 10/MacOS Mojave 10.14.6	
 - Java Version - 1.8.0_211
@@ -10,14 +10,20 @@ Framework is developed considering following system requirements
 - Maven Version - Apache Maven 3.6.2
 - Rest-Assured version - 4.1.2
 
-##### Framework Features:
+### Framework Features:
 - Framework is designed using Rest-Assured and CucumberV4 in JAVA.
 - Implementation of tests is segregated from the tests using step definitions.
 - Used reporting-plugin of cucumber to generate the Cucumber reports.
 - Base URL path is mentioned in configurations.properties which can be changed to use any other url.
 - Response Schema validation is also in place. Schema files are placed under testData folder
 
-##### How to RUN:
+### Scenarios Covered
+- Postive scenario to test success scenarios with 200 status code
+- Response validation
+- Schema validation
+- Nagative scenarios to test 403, 404 status code and error messages
+
+### How to RUN:
 There are two ways to execute it
 ~~~~~~~~~~~~~~~
 First Way:
